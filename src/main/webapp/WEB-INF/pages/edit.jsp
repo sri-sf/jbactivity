@@ -1,5 +1,5 @@
 <html>
     <body>
-        <h3>edit page</h3>
+        <h3>Sridhar's Log: Edit Page</h3>
     </body>
 </html>

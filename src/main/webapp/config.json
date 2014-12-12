@@ -9,8 +9,8 @@
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "My Custom Actity name",
-            "description": "desc for my custom activity"
+            "name": "Sridhar's Log",
+            "description": "post a message to sridhar's log"
         }
     },
     "arguments": {
