@@ -1,5 +1,5 @@
 <html>
     <body>
-        <h3>jb activity</h3>
+        <h3>validate page</h3>
     </body>
 </html>

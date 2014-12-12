@@ -1,0 +1,58 @@
+{
+    "workflowApiVersion": "1.0",
+    "metaData": {
+        "icon": "images/icon.png",
+        "iconSmall": "images/iconSmall.png",
+        "category": "Data Updates",
+        "version": "1.0.1"
+    },
+    "type": "REST",
+    "lang": {
+        "en-US": {
+            "name": "My Custom Actity name",
+            "description": "desc for my custom activity"
+        }
+    },
+    "arguments": {
+        "execute": {
+            "inArguments": [
+                { "myProperty1": "myProperty1 value" },
+                { "myEventData": "myEvent.DataBinding" }
+            ],
+            "outArguments": [],
+            "url": "/execute",
+            "verb": "GET",
+            "body": "",
+            "header": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 10000
+        }
+    },
+    "configurationArguments": {
+        "applicationExtensionKey": "jb_activity_guid",
+        "save": {
+            "url": "/save",
+            "body": "",
+            "verb": "GET",
+            "useJwt": false
+        },
+        "publish": {
+            "url": "/publish",
+            "verb": "GET",
+            "body": "",
+            "useJwt": false
+        },
+        "validate": {
+            "url": "/validate",
+            "verb": "GET",
+            "body": "",
+            "useJwt": false
+        }
+    },
+    "edit": {
+        "url": "/edit",
+        "height": 200,
+        "width": 300
+    }
+}

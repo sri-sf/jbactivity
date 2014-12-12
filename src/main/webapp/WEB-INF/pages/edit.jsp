@@ -1,5 +1,5 @@
 <html>
     <body>
-        <h3>help page</h3>
+        <h3>edit page</h3>
     </body>
 </html>
