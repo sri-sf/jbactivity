@@ -1,5 +1,5 @@
 <html>
     <body>
-        <h3>help page</h3>
+        <h3>help page for jb-activity</h3>
     </body>
 </html>
