@@ -51,7 +51,7 @@
         }
     },
     "edit": {
-        "url": "/edit",
+        "url": "",
         "height": 200,
         "width": 300
     }
