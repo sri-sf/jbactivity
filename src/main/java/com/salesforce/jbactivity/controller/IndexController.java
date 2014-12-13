@@ -29,17 +29,17 @@ public class IndexController {
         return "help";
     }
     
-    @RequestMapping(method = RequestMethod.GET, value = "/save")
+    @RequestMapping(method = RequestMethod.POST, value = "/save")
     public String save() {
         return "save";
     }
     
-    @RequestMapping(method = RequestMethod.GET, value = "/publish")
+    @RequestMapping(method = RequestMethod.POST, value = "/publish")
     public String publish() {
         return "publish";
     }
     
-    @RequestMapping(method = RequestMethod.GET, value = "/validate")
+    @RequestMapping(method = RequestMethod.POST, value = "/validate")
     public String validate() {
         return "validate";
     }
@@ -57,7 +57,7 @@ public class IndexController {
         return "log";
     }
     
-    @RequestMapping(method = RequestMethod.GET, value = "/execute")
+    @RequestMapping(method = RequestMethod.POST, value = "/execute")
     public String writeJBLog(Model model) {
         logFileWriterService.writeToLog("default message");
         model.addAttribute("log", logFileWriterService.retrieveLog());

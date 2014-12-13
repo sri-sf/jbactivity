@@ -22,7 +22,7 @@ return {
             ],
             "outArguments": [],
             "url": "/execute",
-            "verb": "GET",
+            "verb": "POST",
             "body": "",
             "header": "",
             "format": "json",
@@ -35,18 +35,18 @@ return {
         "save": {
             "url": "/save",
             "body": "",
-            "verb": "GET",
+            "verb": "POST",
             "useJwt": false
         },
         "publish": {
             "url": "/publish",
-            "verb": "GET",
+            "verb": "POST",
             "body": "",
             "useJwt": false
         },
         "validate": {
             "url": "/validate",
-            "verb": "GET",
+            "verb": "POST",
             "body": "",
             "useJwt": false
         }
