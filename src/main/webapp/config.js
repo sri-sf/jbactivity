@@ -1,4 +1,5 @@
-{
+define([], function(){      
+return {
     "workflowApiVersion": "1.0",
     "metaData": {
         "icon": "images/icon.png",
@@ -55,4 +56,5 @@
         "height": 200,
         "width": 300
     }
-}
+};
+});
