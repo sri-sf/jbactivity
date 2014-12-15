@@ -19,7 +19,7 @@ return {
             { "myEventData": "myEvent.DataBinding" }
         ],
         "outArguments": [],
-        "url": "/execute",
+        "uri": "/execute",
         "verb": "POST",
         "body": "",
         "header": "",
@@ -28,25 +28,25 @@ return {
         "timeout": 10000
     },
     "save": {
-        "url": "/save",
+        "uri": "/save",
         "body": "",
         "verb": "POST",
         "useJwt": false
     },
     "publish": {
-        "url": "/publish",
+        "uri": "/publish",
         "verb": "POST",
         "body": "",
         "useJwt": false
     },
     "validate": {
-        "url": "/validate",
+        "uri": "/validate",
         "verb": "POST",
         "body": "",
         "useJwt": false
     },
     "edit": {
-        "url": "",
+        "uri": "",
         "height": 200,
         "width": 300
     }
