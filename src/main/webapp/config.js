@@ -25,25 +25,28 @@ return {
         "header": "",
         "format": "json",
         "useJwt": false,
-        "timeout": 10000
+        "timeout": 3000
     },
     "save": {
         "uri": "/save",
         "body": "",
         "verb": "POST",
-        "useJwt": false
+        "useJwt": false,
+        "timeout" : 3000
     },
     "publish": {
         "uri": "/publish",
         "verb": "POST",
         "body": "",
-        "useJwt": false
+        "useJwt": false,
+        "timeout" : 3000        
     },
     "validate": {
         "uri": "/validate",
         "verb": "POST",
         "body": "",
-        "useJwt": false
+        "useJwt": false,
+        "timeout": 3000        
     },
     "edit": {
         "uri": "",
