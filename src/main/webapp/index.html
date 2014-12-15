@@ -1,56 +1,14 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Sridhar's Log</title>
-
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/require.js"></script>
-        <script type="text/javascript">
-            (function() {
-                var config = {
-                    baseUrl: ''
-                };
-
-                var dependencies = [
-                    'customActivity'
-                ];
-
-                require(config, dependencies);
-            })();
-        </script>
-
-        <!--Styles-->
-        <style type="text/css">
-            body {
-                padding: 0;
-                margin: 0;
-            }
-            .step {
-                display: none;
-            }
-            #step1 {
-                display: block;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="step1" class="step">
-            Select your message: 
-            <select id="select1">
-                <option value="">Select an option</option>
-                <option value="someMessage">Some Message</option>
-                <option value="anotherMessage">Another Message</option>
-                <option value="thirdMessage">Third Message</option>
-                <option value="unknownMessage">Unknown Message</option>
-            </select>
-        </div>
-        <div id="step2" class="step">
-            Here is a second page with some info on it.
-        </div>
-        <div id="step3" class="step">
-            You chose the message: <div id="message"></div>
-        </div>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Hello World Custom Activity</title>
+    <script data-main="js/main.js" src="js/require.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h2>Sridhar's Log</h2>
+    </div>
+</body>
 </html>
