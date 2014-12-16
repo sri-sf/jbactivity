@@ -19,7 +19,7 @@ return {
             { "myEventData": "myEvent.DataBinding" }
         ],
         "outArguments": [],
-        "uri": "/execute",
+        "uri": "https://jbactivity.herokuapp.com/execute",
         "verb": "POST",
         "body": "",
         "header": "",
@@ -28,28 +28,28 @@ return {
         "timeout": 3000
     },
     "save": {
-        "uri": "/save",
+        "uri": "https://jbactivity.herokuapp.com/save",
         "body": "",
         "verb": "POST",
         "useJwt": false,
         "timeout" : 3000
     },
     "publish": {
-        "uri": "/publish",
+        "uri": "https://jbactivity.herokuapp.com/publish",
         "verb": "POST",
         "body": "",
         "useJwt": false,
         "timeout" : 3000        
     },
     "validate": {
-        "uri": "/validate",
+        "uri": "https://jbactivity.herokuapp.com/validate",
         "verb": "POST",
         "body": "",
         "useJwt": false,
         "timeout": 3000        
     },
     "edit": {
-        "uri": "",
+        "uri": "https://jbactivity.herokuapp.com/",
         "height": 200,
         "width": 300
     }
