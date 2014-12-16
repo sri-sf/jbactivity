@@ -9,5 +9,7 @@ public interface JBLogFileWriterService {
     void writeToLog(String message);
     
     String retrieveLog();
+    
+    void deleteLog();
 
 }

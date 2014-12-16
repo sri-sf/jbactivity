@@ -2,6 +2,7 @@ package com.salesforce.jbactivity.service;
 
 import com.salesforce.jbactivity.domain.JBActivityConstants;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -40,7 +41,13 @@ public class JBLogFileWriterServiceImpl implements JBLogFileWriterService {
         } 
         finally {
             if(logRetrieved) { return log; } 
-            else { return "failed";}
+            else { return "no messages yet..";}
         }
+    }
+
+    @Override
+    public void deleteLog() {
+        File file = new File(JBActivityConstants.JBLogFileName);            
+        file.delete();
     }
 }

@@ -69,4 +69,11 @@ public class IndexController {
         model.addAttribute("log", logFileWriterService.retrieveLog());
         return "log";
     }    
+
+    @RequestMapping(method = RequestMethod.GET, value = "/deletelogs")
+    public String deleteJBLogs(Model model) {
+        logFileWriterService.deleteLog();
+        model.addAttribute("log", logFileWriterService.retrieveLog());
+        return "log";
+    }    
 }
