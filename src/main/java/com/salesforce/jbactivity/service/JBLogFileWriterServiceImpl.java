@@ -36,7 +36,7 @@ public class JBLogFileWriterServiceImpl implements JBLogFileWriterService {
             log = new String(Files.readAllBytes(Paths.get(JBActivityConstants.JBLogFileName)));            
             logRetrieved = true;
         } 
-        catch (IOException ex) {
+        catch (Exception ex) {
             System.err.println(ex.getMessage());
         } 
         finally {
